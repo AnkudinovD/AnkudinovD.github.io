@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color: #222629;
+    font-family: 'Spectral', serif;
+}
+
+header{
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo__header{
+    color: #fff;
+    font-size: 36px;
+}
+
+.nav__header{
+    margin: 0 auto;
+}
+.nav__link{
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 19px;
+    transition: 0.4s;
+}
+.nav__link:hover{
+    color:#474B4F;
+}
+
+.header__button{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #86C232;
+    border: #86C232 2px solid;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.header__button:hover{
+    background-color: #222629;
+    border: #86C232 2px solid;
+
+}
+
+.header__authorization a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.header__authorization a:hover{
+    color:#474B4F;
+}
+.entry{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: #fff 1px solid;
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section__seans{
+
+    max-width: 1280px;
+    background-color: #474B4F;
+    border-radius: 50px 50px 0 0;
+    padding: 20px 15px 20px 15px;
+}
+
+
+.button__day{
+    margin-bottom: 20px;
+}
+.button__day a{
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 7px;
+    border: #86C232 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+.button__day a:hover{
+    background-color: #86C232;
+}
+
+
+
+.seans{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #222629;
+    padding-bottom: 15px;
+}
+
+.seans span{
+    color: #fff;
+    
+}
+.about__film{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.about__film h3{
+    margin: 0;
+}
+.about__film span{
+    font-size: 16px;
+    padding: 3px;
+    background-color: #222629;
+    border-radius: 5px;
+}
+.button_buy{
+    text-decoration: none;
+    text-align: center;
+}
+.buy__card{
+    
+    width: 75px;
+    background-color: #86C232;
+    border: 1px solid #86C232;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.buy__card:hover{
+        background-color: #474B4F;
+}

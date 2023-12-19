@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: #222629;
+    font-family: 'Spectral', serif;
+}
+
+header{
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo__header{
+    color: #fff;
+    font-size: 36px;
+}
+
+.nav__header{
+    margin: 0 auto;
+}
+.nav__link{
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 19px;
+    transition: 0.4s;
+}
+.nav__link:hover{
+    color:#474B4F;
+}
+
+.header__button{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #86C232;
+    border: #86C232 2px solid;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.header__button:hover{
+    background-color: #222629;
+    border: #86C232 2px solid;
+
+}
+
+.header__authorization a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.header__authorization a:hover{
+    color:#474B4F;
+}
+.entry{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: #fff 1px solid;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+}
+
+.film__section{
+    display: flex;
+}
+
+.img__film{
+    max-width: 600px;
+    max-height: 700px;
+    border-radius: 20px;
+}
+
+.info__film{
+    margin: 0 0 0 15px;
+}
+.info__film h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.info__film p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button__day{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.button__day a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 45px;
+    border: 2px #86C232 solid;
+    border-radius: 18px;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+
+.button__day a:hover{
+    background-color: #86C232;
+}
+.time__film{
+    display: flex;
+    margin-bottom: 15px;
+}
+.button_buy{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.buy__card{
+    
+    width: 75px;
+    border: 1px solid #86C232;
+    border-radius: 5px;
+    
+}
+.time__card{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #86C232;
+    border-radius: 4px 4px 0 0;
+    transition: 0.4s;
+}
+.price__card{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.buy__card:hover{
+    .time__card{
+        background-color: #99d04c;
+    }
+}
+
+iframe{
+    height: 350px;
+    width: 750px;
+}
+
+.description__film{
+    background-color: #474B4F;
+    padding: 21px 15px 10px 15px;
+    border-radius: 20px;
+}
+.description__film p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
